@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: url(https://cdn.shopify.com/app-store/listing_images/b33f6d876accac12b91af70e42dabbdb/icon/CK-cufzoue8CEAE=.png) no-repeat center center /cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    border-radius: 20px;
+    max-width: 50%;
+    padding: 20px;
+    box-shadow: 0 0 30px;
+    text-align: center;
+}
+
+.from-field{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+#from-input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+
+
+.to-field{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+#to-input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+button#convert{
+    color: black;
+    background-color: rgb(122, 208, 236);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+}
