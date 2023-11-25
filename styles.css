@@ -29,7 +29,7 @@ body{
     align-items: center;
     margin: 20px 0;
 }
-#from-input{
+#usdAmount{
     padding: 5px;
     border-radius: 5px;
     width: 60%;
@@ -44,13 +44,13 @@ body{
     align-items: center;
     margin: 20px 0;
 }
-#to-input{
+#rsdAmount{
     padding: 5px;
     border-radius: 5px;
     width: 60%;
 }
 
-button#convert{
+button#convertBtn{
     color: black;
     background-color: rgb(122, 208, 236);
     border-radius: 10px;
