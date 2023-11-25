@@ -3,7 +3,7 @@ let rsdAmount = document.getElementById("to-input");
 let convertBtn = document.getElementById("convert");
 
 
-Converter(usd,rsd){
+function Converter(usd,rsd){
     if(rsd === "0" ){
        usd = usd * 116.4;
     };
@@ -19,9 +19,7 @@ convertBtn.addEventListener("click", function(){
         Converter(usdAmount.value, 0);
 
 
-    };
-
-    else if(usdAmount.value === null){
+    }else if(usdAmount.value === null){
         Converter(0 ,rsdAmount.value);
 
 
