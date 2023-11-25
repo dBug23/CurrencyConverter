@@ -4,10 +4,9 @@ let convertBtn = document.getElementById("convertBtn");
 
 
 function Converter(usd,rsd){
-    if(rsd === "0" || !rsd){
+    if(rsd === "0"){
        rsd = usd * 116.4;
-    };
-    if(usd === "0" || !usd){
+    }else if(usd === "0"){
         usd = rsd / 117.4;
     };
 
@@ -17,11 +16,11 @@ function Converter(usd,rsd){
 };
 
 convertBtn.addEventListener("click", function(){
-    if(!rsdAmount.value){
+    if(rsdAmount.value === ""){
         Converter(usdAmount.value, 0);
-    }else if(!usdAmount.value){
+    }else if(usdAmount.value === ""){
         Converter(0, rsdAmount.value);
     };
 
 
-})
+});
